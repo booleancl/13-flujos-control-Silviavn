@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "AutoGrading",
+      "setup": "./tests/setup",
+      "run": "python -m pytest -v --import-mode=append tests/",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
